@@ -1,0 +1,182 @@
+* {
+    font-family: 'orbitron';
+    color: white;
+    background-color: black;
+}
+
+a {text-decoration: none;}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 60px 0 60px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 840px;
+    font-weight: bold;
+}
+
+.cabecalho-menu-lista {
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+}
+
+.cabecalho-menu-lista li{
+    list-style: none;
+}
+
+.cabecalho-menu-lista a:hover {
+    color: black;
+    background-color: #33CC66;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.cabecalho-menu-item-botao {
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #33CC66;
+    width: 180px;
+    color: black;
+    padding: 12px;
+    border: none;
+    transition: box-shadow 0.3s ease;
+}
+
+.cabecalho-menu-item-botao button:hover{
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+}
+
+.cabecalho-img img{
+    height: 150px;
+    background-color: black;
+}
+
+.conteudo-lead  {
+    background-color: rgb(19, 19, 19);
+    background-image: url(images/lead-no-bg2.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px; padding-bottom: 30px;
+}
+
+
+.conteudo-lead-titulo {
+    font-size: 55px;
+    width: 900px;
+    margin: 0px 60px 0px 60px;
+    margin-bottom: 40px;
+    padding: 70px 0 0px 0;
+    background-color: transparent;
+}
+
+.conteudo-lead-titulo span {
+    background-color: transparent;
+    color: #29a252;
+}
+
+.conteudo-lead-botao {
+    background-color: #33CC66;
+    color: black;
+    font-weight: bolder;
+    font-size: 22px;
+    height: 70px; width: 190px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.conteudo-metodo {
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.conteudo-metodo div{
+    display: flex;
+    margin-top: 40px;
+}
+
+.conteudo-metodo-etapas section{
+    background-color: gray;
+    width: 300px;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo-metodo-etapas h3{
+    background-color: gray;
+    font-size: 30px;
+}
+
+.conteudo-metodo-etapas figure {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.conteudo-metodo-etapas img{
+    background-color: gray;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo-metodo-titulo {
+    font-size: 50px;
+    color: black;
+    background-color: gray;
+}
+
+.conteudo-metodo-escrito {
+    background-color: gray;
+    color: black;
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 100px;
+    width: 900px;
+    font-size: 25px;
+}
+
+.conteudo-carreira {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.conteudo-carreira h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px; margin-bottom: 20px;
+}
+
+.conteudo-carreira-titulo-profissoes{
+    display: flex;    
+}
+
+.conteudo-carreira-titulo-profissoes figure{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.conteudo-carreira-titulo-profissoes img{
+    max-width: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+
+}
+
