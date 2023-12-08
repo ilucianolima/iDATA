@@ -83,13 +83,36 @@
                     <h3 class="conteudo-carreira-titulo-analista-de-dados">Analista de Dados</h3>
                     <p class="conteudo-carreira-escrito-analista-de-dados">Um analista de dados é responsável por examinar dados, encontrar tendências e criar relatórios fáceis de entender, ajudando as empresas
                         a entenderem melhor seu desempenho e a tomar decisões informadas.</p>
-            </figure>
+                </figure>
             </div>
         </section>
 
-        <section>
-                Formulario
-        </section>
+        <section class="formulario">
+            <header class="formulario-caixa">
+              <h3 class="formulario-caixa-titulo">Formulário de adoção</h3>
+              <p class="formulario-caixa-escrito">Preencha esse formulário e aguarde o contato.</p>
+            </header>
+            <form>
+              <div class="formulario-nome">
+                <label for="txt_name">Nome:</label>
+                <input type="text" id="txt_name" placeholder="Seu nome" required />
+              </div>
+              <div class="formulario-email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Seu email" required />
+              </div>
+              <div class="formulario-observacao">
+                <label for="txt_decricao">Decrição:</label>
+                <textarea
+                  id="txt_decricao"
+                  cols="30"
+                  rows="10"
+                  placeholder="Digite aqui o nome do pet que você quer adotar e, se quiser, algum comentário adicional."
+                ></textarea>
+              </div>
+              <input type="submit" value="Enviar" id="enviar" />
+            </form>
+          </section>
     </main>
 
     <footer>

@@ -87,6 +87,7 @@ a {text-decoration: none;}
 
 .conteudo-lead-botao {
     background-color: #33CC66;
+    cursor: pointer;
     color: black;
     font-weight: bolder;
     font-size: 22px;
@@ -124,6 +125,7 @@ a {text-decoration: none;}
 .conteudo-metodo-etapas figure {
     max-width: 200px;
     max-height: 200px;
+
 }
 
 .conteudo-metodo-etapas img{
@@ -147,36 +149,62 @@ a {text-decoration: none;}
     height: 100px;
     width: 900px;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .conteudo-carreira {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 .conteudo-carreira h2 {
     text-align: center;
-    font-size: 40px;
-    margin-top: 20px; margin-bottom: 20px;
+    font-size: 45px;
+    margin-top: 60px; 
+    margin-bottom: 60px;
 }
 
 .conteudo-carreira-titulo-profissoes{
-    display: flex;    
+    display: flex;
+    justify-content: center;   
 }
 
 .conteudo-carreira-titulo-profissoes figure{
+    display: flex;
+    flex-direction: column;
     background-color: gray;
+    align-items: center;
+    justify-content: center;
     border-radius: 10px;
 }
 
 .conteudo-carreira-titulo-profissoes img{
     max-width: 300px;
-    background-size: cover;
-    background-position: center;
+    max-height: 200px;
     background-color: transparent;
-    align-items: center;
-    justify-content: center;
-
+    padding-top: 50px; padding-bottom: 10px;
 }
 
+.conteudo-carreira-titulo-profissoes h3{
+    font-size: 30px;
+    color: black;
+    background-color: transparent;
+}
+
+.conteudo-carreira-titulo-profissoes p{
+    width: 400px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    background-color: transparent;
+    width: 400px;
+    padding: 0px 40px 30px 40px;
+}
+
+.formulario {
+    background-color: blue;
+}
